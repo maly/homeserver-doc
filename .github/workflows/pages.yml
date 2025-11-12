@@ -18,7 +18,11 @@ jobs:
         with:
           ruby-version: '3.3'
           bundler-cache: true
-      - run: bundle install --path vendor/bundle
+      - name: Cache Jekyll build artifacts
+        uses: actions/cache@v4
+        with:
+          path: .jekyll-cache
+          key: jekyll-${{ hashFiles('**/*.md', '**/*.html', '_config.yml', 'Gemfile.lock') }}
       - run: bundle exec jekyll build --trace
       - uses: actions/upload-pages-artifact@v3
         with:
