@@ -33,6 +33,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Nastavení archivu (volitelné pro /tags apod.)
 jekyll-archives:
@@ -45,3 +51,8 @@ jekyll-archives:
   permalinks:
     category: /kategorie/:name/
     tag: /tag/:name/
+
+# RSS jen pro kolekci homeserver (volitelné)
+feed:
+  collections:
+    - homeserver
