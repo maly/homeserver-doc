@@ -1,8 +1,8 @@
 title: "Jak jsem dělal domácí server"
 description: "Osobní technická série o stavbě a provozu domácího serveru"
 locale: cs-CZ
-url: "https://maly.github.io"   # změň po nasazení
-baseurl: "/homeserver-doc"
+url: "https://homeserver.elektroniche.cz"   # změň po nasazení
+baseurl: ""
 
 theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes@4.27.3"
@@ -17,7 +17,7 @@ markdown: kramdown
 collections:
   homeserver:
     output: true
-    permalink: ./:name/
+    permalink: homeserver/:name/
 
 defaults:
   - scope:
