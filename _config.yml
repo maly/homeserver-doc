@@ -13,7 +13,7 @@ markdown: kramdown
 collections:
   homeserver:
     output: true
-    permalink: /homeserver/:name/
+    permalink: /homeserver-doc/:name/
 
 defaults:
   - scope:
