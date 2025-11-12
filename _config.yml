@@ -39,7 +39,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-redirect-from
-  - jekyll-remote-theme
+#  - jekyll-remote-theme
 
 kramdown:
   input: GFM
@@ -70,3 +70,5 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/maly"    
+      
+      
