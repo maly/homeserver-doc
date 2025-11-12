@@ -7,13 +7,17 @@ baseurl: "/homeserver-doc"
 theme: minimal-mistakes-jekyll
 # remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
+minimal_mistakes_skin: "plum"
+breadcrumbs: true
+
+
 markdown: kramdown
 
 # Kolekce pro sérii
 collections:
   homeserver:
     output: true
-    permalink: /homeserver-doc/:name/
+    permalink: /:name/
 
 defaults:
   - scope:
@@ -57,3 +61,12 @@ jekyll-archives:
 feed:
   collections:
     - homeserver
+    
+author:
+  name: "Martin Malý"
+  avatar: "/assets/images/bio.jpg"
+  bio: "Manažer, programátor a autor."
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/maly"    

@@ -1,0 +1,13 @@
+main:
+  - title: "Série"
+    url: /homeserver/
+  - title: "Kapitoly"
+    url: /collection-archive/
+  - title: "Tagy"
+    url: /tags/
+
+homeserver_nav:
+  - title: "Úvod"
+    url: /homeserver/01-uvod/
+  - title: "HW"
+    url: /homeserver/02-hardware/

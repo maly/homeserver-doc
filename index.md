@@ -1,5 +1,7 @@
 ---
 layout: single
+sidebar:
+  nav: homeserver_nav
 title: Jak jsem dělal domácí server
 excerpt: Série článků (kapitol) o tom, jak jsem stavěl a provozuju domácí server. Subjektivně, ale s kompletními příkazy.
 ---
