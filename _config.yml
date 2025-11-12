@@ -4,7 +4,8 @@ locale: cs-CZ
 url: "https://uzivatel.github.io"   # změň po nasazení
 baseurl: ""
 
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 markdown: kramdown
 kramdown:
