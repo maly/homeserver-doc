@@ -35,6 +35,7 @@ plugins:
   - jekyll-archives
   - jekyll-sitemap
   - jekyll-redirect-from
+  - jekyll-remote-theme
 
 kramdown:
   input: GFM
