@@ -1,15 +1,13 @@
 title: "Jak jsem dělal domácí server"
 description: "Osobní technická série o stavbě a provozu domácího serveru"
 locale: cs-CZ
-url: "https://uzivatel.github.io"   # změň po nasazení
+url: "https://maly.github.io/homeserver-doc"   # změň po nasazení
 baseurl: ""
 
-# theme: minimal-mistakes-jekyll
-remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+theme: minimal-mistakes-jekyll
+# remote_theme: "mmistakes/minimal-mistakes@4.27.3"
 
 markdown: kramdown
-kramdown:
-  input: GFM
 
 # Kolekce pro sérii
 collections:
