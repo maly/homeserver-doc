@@ -17,7 +17,7 @@ markdown: kramdown
 collections:
   homeserver:
     output: true
-    permalink: /:name/
+    permalink: ./:name/
 
 defaults:
   - scope:
