@@ -1,0 +1,47 @@
+title: "Jak jsem dělal domácí server"
+description: "Osobní technická série o stavbě a provozu domácího serveru"
+locale: cs-CZ
+url: "https://uzivatel.github.io"   # změň po nasazení
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Kolekce pro sérii
+collections:
+  homeserver:
+    output: true
+    permalink: /homeserver/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "homeserver"
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: false
+      comments: false
+      toc: true
+      toc_sticky: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Nastavení archivu (volitelné pro /tags apod.)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /kategorie/:name/
+    tag: /tag/:name/
